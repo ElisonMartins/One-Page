@@ -1,0 +1,46 @@
+.Cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card {
+    background-color: var(--white);
+    height: 300px;
+    width: 230px;
+    margin: 50px;
+    border-radius: 5px;
+
+}
+
+.image-color {
+    height: 150px;
+    width: 230px;
+    background-color: red;
+}
+
+.text-card {
+    padding: 15px;
+    
+}
+
+.text-card h2 {
+    text-align: left;
+    margin: 8px;
+}
+
+.text-card p {
+    
+    margin: 8px;
+    margin-top: 20px;
+}
+
+#color-1 {
+    background: #FF6363;
+    ;
+}
+#color-2 {
+    background: #63ECFF;
+}
+#color-3{
+    background: #F363FF;
+}
