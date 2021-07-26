@@ -1,21 +1,19 @@
 .head {
 	background-color: var(--bgSite);
 	height: 500px;
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	
 }
 
 .image {
-	width: 300px;
+	width: 40%;
 	height: 300px;
 	margin: auto 50px auto 10px;
-	
 }
 
 .text {
-	width: 400px;
+	width: 50%;
 	margin: auto 10px auto 50px;
 }
 
@@ -27,3 +25,21 @@
 	margin-top: 30px;
 	border-radius: 3px;
 }
+
+@media screen and (max-width: 750px) {
+    .head {
+		background-color: var(--bgSite);
+		display: block	
+	}
+
+	.text {
+		margin: auto auto;
+		width: 80%;
+		padding: 40px 0;
+	}
+
+	.image {
+		margin: 10px auto 10px auto;
+		width: 50%;		
+	}
+};  

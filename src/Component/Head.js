@@ -15,7 +15,6 @@ function Head() {
 			
       <div className="image">
         <img src={logo} alt="logo" />
-        
       </div>
 		</div>
     </>

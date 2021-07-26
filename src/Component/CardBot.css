@@ -44,3 +44,13 @@
 #color-6{
     background: #6663FF;
 }
+
+@media screen and (max-width: 800px) {
+    .Cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+};
