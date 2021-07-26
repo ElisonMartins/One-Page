@@ -1,0 +1,37 @@
+.Area-form {
+    background-color: var(--bgSite);    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.Area-form h1 {
+    padding: 30px;
+}
+
+#area-text {
+    height: 120px ;
+}
+
+.Form {
+    display: flex;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    
+    flex-direction: column;
+}
+
+.btn-form {
+	background-color: var(--buttonColor);
+	color: var(--white);
+    width: 30%;
+	cursor: pointer;
+	padding: 10px 10px;
+	border-radius: 3px;
+}

@@ -17,7 +17,7 @@
 	margin: auto 10px auto 50px;
 }
 
-#btn {
+.btn {
 	background-color: var(--buttonColor);
 	color: var(--white);
 	cursor: pointer;
